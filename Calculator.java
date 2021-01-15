@@ -18,7 +18,7 @@ import javax.swing.JTextArea;
  */
 
 class Cal implements ActionListener{
-     private JFrame f=new JFrame("CALCULATOR");
+     private JFrame f=new JFrame("My calculator in java....");
      private JTextArea s=new JTextArea();
      
      //calculation variables:
@@ -53,7 +53,7 @@ class Cal implements ActionListener{
      private JButton btnAdd=new JButton("+");
     Cal(){
      Container c=f.getContentPane();
-     c.setBackground(Color.GREEN);
+     c.setBackground(Color.PINK);
      
      
      f.setSize(400,550);
